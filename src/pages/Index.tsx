@@ -465,7 +465,9 @@ const Index = () => {
             <p className="text-3xl md:text-4xl font-heading font-black text-primary">R$9,90</p>
             <p className="text-xs md:text-sm text-muted-foreground">UM ÚNICO PAGAMENTO</p>
           </div>
-          <CTAButton>Quero Baixar Agora!</CTAButton>
+          <CTAButton href="https://pay.lowify.com.br/checkout?product_id=LSY3I2">
+            Quero Baixar Agora!
+          </CTAButton>
           <p className="text-urgency font-bold mt-3 md:mt-4 text-sm md:text-base">
             SOMENTE HOJE! ÚLTIMAS 7 UNIDADES DISPONÍVEIS
           </p>
