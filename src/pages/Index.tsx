@@ -187,7 +187,7 @@ const Index = () => {
                 el?.scrollIntoView({ behavior: "smooth", block: "start" });
               }}
             >
-              Quero Baixar Agora!
+              Quero Acesso Imediato!
             </CTAButton>
             <p className="text-center text-xs md:text-sm text-white mt-2 md:mt-3">
               +7.500 avaliações (⭐⭐⭐⭐⭐4.9/5)
@@ -466,7 +466,7 @@ const Index = () => {
             <p className="text-xs md:text-sm text-muted-foreground">UM ÚNICO PAGAMENTO</p>
           </div>
           <CTAButton href="https://pay.lowify.com.br/checkout?product_id=LSY3I2">
-            Quero Baixar Agora!
+            Quero Acesso Imediato!
           </CTAButton>
           <p className="text-urgency font-bold mt-3 md:mt-4 text-sm md:text-base">
             SOMENTE HOJE! ÚLTIMAS 7 UNIDADES DISPONÍVEIS
