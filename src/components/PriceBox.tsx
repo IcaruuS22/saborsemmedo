@@ -52,7 +52,9 @@ export const PriceBox = ({ showTimer = true, showFeatures = false }: PriceBoxPro
       </div>
 
       <div className="flex flex-col items-center gap-3 md:gap-4">
-        <CTAButton>Quero Baixar Agora!</CTAButton>
+        <CTAButton href="https://pay.lowify.com.br/checkout?product_id=LSY3I2">
+          Quero Baixar Agora!
+        </CTAButton>
       </div>
 
       <div className="mt-4 md:mt-6 text-center">
