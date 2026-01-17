@@ -326,6 +326,23 @@ const Index = () => {
         </div>
       </section>
 
+      {/* Testimonials Section */}
+      <section className="py-10 px-1 md:py-24 md:px-1">
+        <div className="container max-w-5xl mx-auto">
+          <h2 className="text-lg sm:text-xl md:text-4xl font-heading font-bold text-center text-foreground mb-6 md:mb-12 px-2">
+            Depoimentos de quem já transformou sua alimentação com este Guia de Receitas 🥰
+          </h2>
+          
+          <Suspense fallback={null}>
+            <TestimonialPlaceholder />
+          </Suspense>
+          
+          <Suspense fallback={null}>
+            <RatingSummary />
+          </Suspense>
+        </div>
+      </section>
+
       {/* Second CTA Section */}
       <section id="oferta" className="py-10 px-1 md:py-24 md:px-1 bg-section-alt">
         <div className="container max-w-4xl mx-auto text-center">
@@ -345,23 +362,6 @@ const Index = () => {
           
           <Suspense fallback={null}>
             <PriceBox showFeatures />
-          </Suspense>
-        </div>
-      </section>
-
-      {/* Testimonials Section */}
-      <section className="py-10 px-1 md:py-24 md:px-1">
-        <div className="container max-w-5xl mx-auto">
-          <h2 className="text-lg sm:text-xl md:text-4xl font-heading font-bold text-center text-foreground mb-6 md:mb-12 px-2">
-            Depoimentos de quem já transformou sua alimentação com este Guia de Receitas 🥰
-          </h2>
-          
-          <Suspense fallback={null}>
-            <TestimonialPlaceholder />
-          </Suspense>
-          
-          <Suspense fallback={null}>
-            <RatingSummary />
           </Suspense>
         </div>
       </section>
