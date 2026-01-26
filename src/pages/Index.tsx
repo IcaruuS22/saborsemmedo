@@ -576,7 +576,7 @@ const Index = () => {
           </p>
           <div className="mb-3 md:mb-4">
             <p className="text-muted-foreground line-through text-sm md:text-base">VALOR SEM DESCONTO: R$330,00</p>
-            <p className="text-3xl md:text-4xl font-heading font-black text-primary">R$9,90</p>
+            <p className="text-3xl md:text-4xl font-heading font-black text-primary">R$14,90</p>
             <p className="text-xs md:text-sm text-muted-foreground">UM ÚNICO PAGAMENTO</p>
           </div>
           <CTAButton href="https://www.ggcheckout.com/checkout/v4/zewNiemhu4hGPKtJ01pm">
