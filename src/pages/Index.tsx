@@ -365,62 +365,7 @@ const Index = () => {
             <PriceBox showFeatures />
           </Suspense>
 
-          <div className="mt-6 md:mt-8">
-            <div className="bg-card rounded-xl md:rounded-2xl shadow-hero border border-success p-4 md:p-8 max-w-2xl mx-auto">
-              <div className="text-center mb-4 md:mb-6">
-                <div className="inline-flex items-center gap-2 bg-success/10 text-success px-3 md:px-4 py-1.5 md:py-2 rounded-full mb-2">
-                  <span className="font-bold text-xs md:text-sm">Plano mais escolhido</span>
-                </div>
-                <img
-                  src={appPreview}
-                  alt="Aplicativo com 200 receitas"
-                  className="w-48 md:w-64 mx-auto mb-2 h-auto object-contain"
-                  loading="lazy"
-                  decoding="async"
-                />
-                <p className="text-base md:text-lg font-bold text-foreground mt-1 md:mt-2">Plano App Premium</p>
-                <p className="text-4xl md:text-6xl font-heading font-black text-primary">R$29,90</p>
-                <p className="text-xs md:text-sm text-muted-foreground mt-1 md:mt-2">PAGAMENTO ÚNICO COM ACESSO IMEDIATO!</p>
-                <div className="mb-4 md:mb-6 space-y-1.5 md:space-y-2 text-left">
-                  <div className="flex items-start gap-2">
-                    <Check className="w-4 h-4 md:w-5 md:h-5 text-success flex-shrink-0 mt-0.5" />
-                    <span className="text-sm md:text-base text-foreground font-semibold">
-                      Inclui todos os bônus do plano básico + acesso ao aplicativo com 200 receitas
-                    </span>
-                  </div>
-                  <div className="flex items-start gap-2">
-                    <Check className="w-4 h-4 md:w-5 md:h-5 text-success flex-shrink-0 mt-0.5" />
-                    <span className="text-sm md:text-base text-foreground font-semibold">
-                      Acesso instantâneo no celular, tablet e computador
-                    </span>
-                  </div>
-                  <div className="flex items-start gap-2">
-                    <Check className="w-4 h-4 md:w-5 md:h-5 text-success flex-shrink-0 mt-0.5" />
-                    <span className="text-sm md:text-base text-foreground font-semibold">
-                      Busca rápida por receitas e ingredientes
-                    </span>
-                  </div>
-                  <div className="flex items-start gap-2">
-                    <Check className="w-4 h-4 md:w-5 md:h-5 text-success flex-shrink-0 mt-0.5" />
-                    <span className="text-sm md:text-base text-foreground font-semibold">
-                      Favoritos e organização personalizada
-                    </span>
-                  </div>
-                  <div className="flex items-start gap-2">
-                    <Check className="w-4 h-4 md:w-5 md:h-5 text-success flex-shrink-0 mt-0.5" />
-                    <span className="text-sm md:text-base text-foreground font-semibold">
-                      Atualizações contínuas sem precisar baixar novos arquivos
-                    </span>
-                  </div>
-                </div>
-              </div>
-              <div className="flex flex-col items-center gap-3 md:gap-4">
-                <CTAButton href="https://www.ggcheckout.com/checkout/v4/oBtTogGmXMklPwJIbYhN" animationClass="animate-pulse-slower">
-                  Quero Acesso ao App!
-                </CTAButton>
-              </div>
-            </div>
-          </div>
+          
         </div>
       </section>
 
@@ -495,62 +440,7 @@ const Index = () => {
             <Suspense fallback={null}>
               <PriceBox showTimer={false} />
             </Suspense>
-          <div className="mt-6 md:mt-8">
-            <div className="bg-card rounded-xl md:rounded-2xl shadow-hero border border-success p-4 md:p-8 max-w-2xl mx-auto">
-              <div className="text-center mb-4 md:mb-6">
-                <div className="inline-flex items-center gap-2 bg-success/10 text-success px-3 md:px-4 py-1.5 md:py-2 rounded-full mb-2">
-                  <span className="font-bold text-xs md:text-sm">Plano mais escolhido</span>
-                </div>
-                <img
-                  src={appPreview}
-                  alt="Aplicativo com 200 receitas"
-                  className="w-48 md:w-64 mx-auto mb-2 h-auto object-contain"
-                  loading="lazy"
-                  decoding="async"
-                />
-                <p className="text-base md:text-lg font-bold text-foreground mt-1 md:mt-2">Plano App Premium</p>
-                <p className="text-4xl md:text-6xl font-heading font-black text-primary">R$29,90</p>
-                <p className="text-xs md:text-sm text-muted-foreground mt-1 md:mt-2">PAGAMENTO ÚNICO COM ACESSO IMEDIATO!</p>
-                <div className="mb-4 md:mb-6 space-y-1.5 md:space-y-2 text-left">
-                  <div className="flex items-start gap-2">
-                    <Check className="w-4 h-4 md:w-5 md:h-5 text-success flex-shrink-0 mt-0.5" />
-                    <span className="text-sm md:text-base text-foreground font-semibold">
-                      Inclui todos os bônus do plano básico + acesso ao aplicativo com 200 receitas
-                    </span>
-                  </div>
-                  <div className="flex items-start gap-2">
-                    <Check className="w-4 h-4 md:w-5 md:h-5 text-success flex-shrink-0 mt-0.5" />
-                    <span className="text-sm md:text-base text-foreground font-semibold">
-                      Acesso instantâneo no celular, tablet e computador
-                    </span>
-                  </div>
-                  <div className="flex items-start gap-2">
-                    <Check className="w-4 h-4 md:w-5 md:h-5 text-success flex-shrink-0 mt-0.5" />
-                    <span className="text-sm md:text-base text-foreground font-semibold">
-                      Busca rápida por receitas e ingredientes
-                    </span>
-                  </div>
-                  <div className="flex items-start gap-2">
-                    <Check className="w-4 h-4 md:w-5 md:h-5 text-success flex-shrink-0 mt-0.5" />
-                    <span className="text-sm md:text-base text-foreground font-semibold">
-                      Favoritos e organização personalizada
-                    </span>
-                  </div>
-                  <div className="flex items-start gap-2">
-                    <Check className="w-4 h-4 md:w-5 md:h-5 text-success flex-shrink-0 mt-0.5" />
-                    <span className="text-sm md:text-base text-foreground font-semibold">
-                      Atualizações contínuas sem precisar baixar novos arquivos
-                    </span>
-                  </div>
-                </div>
-              </div>
-              <div className="flex flex-col items-center gap-3 md:gap-4">
-                <CTAButton href="https://www.ggcheckout.com/checkout/v4/oBtTogGmXMklPwJIbYhN" animationClass="animate-pulse-slower">
-                  Quero Acesso ao App!
-                </CTAButton>
-              </div>
-            </div>
-          </div>
+          
           </div>
         </div>
       </section>
@@ -576,7 +466,7 @@ const Index = () => {
           </p>
           <div className="mb-3 md:mb-4">
             <p className="text-muted-foreground line-through text-sm md:text-base">VALOR SEM DESCONTO: R$330,00</p>
-            <p className="text-3xl md:text-4xl font-heading font-black text-primary">R$19,90</p>
+            <p className="text-3xl md:text-4xl font-heading font-black text-primary">R$9,90</p>
             <p className="text-xs md:text-sm text-muted-foreground">UM ÚNICO PAGAMENTO</p>
           </div>
           <CTAButton href="https://www.ggcheckout.com/checkout/v4/zewNiemhu4hGPKtJ01pm">
