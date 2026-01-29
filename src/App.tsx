@@ -5,8 +5,6 @@ import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Index from "./pages/Index";
 import NotFound from "./pages/NotFound";
-import MetaPageView from "./tracking/MetaPageView";
-import MetaViewContent from "./tracking/MetaViewContent";
 
 const queryClient = new QueryClient();
 
@@ -16,8 +14,6 @@ const App = () => (
       <Toaster />
       <Sonner />
       <BrowserRouter>
-        <MetaPageView />
-        <MetaViewContent />
         <Routes>
           <Route path="/" element={<Index />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
