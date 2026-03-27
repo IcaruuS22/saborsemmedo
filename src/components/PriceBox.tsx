@@ -50,7 +50,7 @@ export const PriceBox = ({ showTimer = true, showFeatures = false }: PriceBoxPro
         </p>
         <p className="text-base md:text-lg font-bold text-foreground mt-1 md:mt-2">SOMENTE HOJE:</p>
         <p className="text-4xl md:text-6xl font-heading font-black text-primary">
-          R$14,90
+          R$19,90
         </p>
         <p className="text-xs md:text-sm text-muted-foreground mt-1 md:mt-2">
           PAGAMENTO ÚNICO COM ACESSO IMEDIATO!
